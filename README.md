@@ -7,6 +7,7 @@ Um simples aplicativo ToDo List desenvolvido em Laravel 8 com Bootstrap.
 Certifique-se de que seu ambiente atenda aos seguintes requisitos:
 
 - PHP >= 7.3
+- Laravel 8.X
 - Composer
 - Node.js e NPM
 - Banco de dados (por exemplo, MySQL)
