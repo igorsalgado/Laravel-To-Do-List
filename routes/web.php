@@ -26,8 +26,8 @@ Route::resource('tarefa', 'App\Http\Controllers\TarefaController');
 
 
 Route::get('/mensagem-teste', function () {
-    //return new MensagemTesteMail();
+    return new MensagemTesteMail();
 
-    Mail::to('salgado.igor.is@gmail.com')->send(new MensagemTesteMail);
-    return 'Enviado';
+    //Mail::to('salgado.igor.is@gmail.com')->send(new MensagemTesteMail);
+    //return 'Enviado';
 });
